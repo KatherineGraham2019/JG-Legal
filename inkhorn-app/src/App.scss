@@ -10,24 +10,35 @@
         width: 100%;
 
         .navbar-color{
-            background-color: $primary-color;
+            background-color: $primay-color-rgba;
         }
-    
-        .navbar-light .navbar-brand {
-            color: $primary-text-color;
-            font-weight: 400;
-            letter-spacing: 1px;
-            font-size: 36px;
-        }
-    
-        .navbar-light .navbar-brand:hover {
-            color: $primary-text-color;
-            font-size: 36px;
-        }
-    
+
         .inkhorn-navbar{ 
-            float: right;
+            position: relative;
+            right: 0;
+            display: inline-block !important;
+            margin-right: 20px;
         }
+
+        .navbar-light {
+            .navbar-brand {
+                color: $primary-text-color;
+                font-weight: 500;
+                letter-spacing: 2px;
+                font-size: 50px;
+                font-family: Cutive;
+                margin-left: 20px;
+            }
+
+            .navbar-brand:hover {
+                color: $primary-text-color;
+            }
+
+            .navbar-nav .nav-link {
+                color: $primary-text-color;
+            }
+        }
+
 
         .justify-content-end{
             float: right;
@@ -35,12 +46,12 @@
 
         .sub-header {
             height: 50px;
-            background-color: $tertiary-color;
+            background-color: $tertiary-color-rgba;
             padding-top: 10px;
 
             h3 {
                 font-size: 24px;
-                font-weight: 200;
+                font-weight: 300;
                 letter-spacing: 4px;
                 color: $primary-text-color;
                 text-align: center;
@@ -64,12 +75,69 @@
         }
 
         .img-thumbnail {
-            padding: .25rem;
+            padding: .15rem;
             background-color: $tertiary-color;
-            border: .2px solid $tertiary-color;
-            border-radius: .25rem;
+            border: .2px solid $tertiary-color !important;
+            border-radius: 0rem;
             max-width: 100%;
             height: auto;
+        }
+    }
+
+    .inkhorn-footer {
+        height: 50px;
+        padding-top: 5px;
+        background-color: $quintary-color;
+
+        .copyright {
+            width: 50%;
+            color: white;
+            text-align: left !important;
+            margin-left: 10px;
+            padding-top: 7px;
+            float: left !important;
+            left: 0;
+        }
+
+        .social-media {
+            float: right;
+            .fa {
+                padding: 10px;
+                width: 35px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 10px;
+                margin-right: 10px;
+            }
+            
+            .fa:hover {
+                opacity: 0.7;
+            }
+            
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+            }
+            
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+            }
+
+            .fa-youtube {
+                background: #bb0000;
+                color: white;
+            }
+
+            .fa-linkedin {
+                background: #007bb5;
+                color: white;
+            }
+
+            .fa-instagram {
+                background: #125688;
+                color :white;
+            }
         }
     }
 }
