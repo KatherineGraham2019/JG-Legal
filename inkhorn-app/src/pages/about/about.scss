@@ -1,0 +1,37 @@
+@import '../../../theme.scss';
+
+
+.about {
+
+    .spacer {
+        background-image: url("/San-Diego-Images/Law-Corner.jpg");
+        background-size: 100% auto;
+        height: 500px;
+    }
+
+    .overview-section {
+        background-color: $quintary-color-rgba;
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        padding: 50px 25px 50px 25px;
+
+        .side-view {
+            width: 800px;
+
+            h2 {
+                font-family: Cutive;
+                color: $primary-text-color;
+            }
+        }
+
+        article {
+            padding: 0 40px 0 40px;
+        }
+    }
+
+    .links {
+        height: 40px;
+        background-color: $secondary-color-rgba;
+    }
+}
