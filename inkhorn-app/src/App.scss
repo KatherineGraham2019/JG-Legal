@@ -1,42 +1,35 @@
 
+@import '../theme.scss';
+
 .inkhorn-app {
-  text-align: center;
+    text-align: center;
 
-  .carousel-container{
-    margin-top: 10px;
-  }
-}
+    .sticky-header{
+        position: fixed;
+        z-index: 100;
+        width: 100%;
 
-.App {
-  text-align: center;
-}
+        .navbar-color{
+            background-color: $primary-color;
+        }
+    
+        .navbar-light .navbar-brand {
+            color: $primary-text-color;
+            font-size: 36px;
+        }
+    
+        .navbar-light .navbar-brand:hover {
+            color: $primary-text-color;
+            font-size: 36px;
+        }
+    
+        .inkhorn-navbar{ 
+            float: right;
+        }
+    }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .carousel-container{
+        margin-top: 0px;
+    }
 }
