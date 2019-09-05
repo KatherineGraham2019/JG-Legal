@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Carousel } from 'react-bootstrap';
+import { Navbar, Nav, Carousel, Container, Row, Col, Image } from 'react-bootstrap';
 import './App.scss';
 
 function App() {
@@ -31,7 +31,12 @@ function App() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
+
+            <div className="sub-header">
+                <h3>Law Office of Jeremiah Graham</h3>
+            </div>
         </header>
+
         <div className="carousel-container">
             <Carousel>
                 <Carousel.Item>
@@ -57,8 +62,28 @@ function App() {
                 </Carousel.Item>
             </Carousel>
         </div>
-        <div className="card-container">
 
+        <div className="card-container">
+            <Container>
+                <Row>
+                    <Col xs={5} md={3}>
+                        <Image src="/San-Diego-Images/Coronado-Bridge-2.jpg" thumbnail />
+                        <h3>Contact</h3>
+                    </Col>
+                    <Col xs={5} md={3}>
+                        <Image src="/San-Diego-Images/New-Courthouse-7.jpg" thumbnail />
+                        <h3>Freedom of Conscience</h3>
+                    </Col>
+                    <Col xs={5} md={3}>
+                        <Image src="/San-Diego-Images/Law-Corner.jpg" thumbnail />
+                        <h3>Promotional Offers</h3>
+                    </Col>
+                    <Col xs={5} md={3}>
+                        <Image src="/San-Diego-Images/San-Diego-Glamour-1.jpg" thumbnail />
+                        <h3>Vacation Default Judgements</h3>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     </div>
   );
