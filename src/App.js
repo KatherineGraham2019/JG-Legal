@@ -40,7 +40,7 @@ function App() {
             </Navbar>
 
             <div className="sub-header">
-                <h3>Law Office of Jeremiah Graham</h3>
+                <h3>{/*Law Office of Jeremiah Graham*/}</h3>
             </div>
         </header>
 
