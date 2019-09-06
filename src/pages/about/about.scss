@@ -35,4 +35,34 @@
         height: 40px;
         background-color: $secondary-color-rgba;
     }
+
+    @media only screen and (max-width: 400px) {
+        .spacer {
+            background-image: url("/San-Diego-Images/Law-Corner.jpg");
+            background-size: 100% auto;
+            height: 250px;
+        }
+
+        .overview-section {
+            background-color: $quintary-color-rgba;
+            display: block;
+            flex-direction: column;
+            flex: 1;
+            padding: 20px 10px 20px 10px;
+
+            .side-view {
+                width: 100%;
+    
+                h2 {
+                    font-family: Cutive;
+                    color: $primary-text-color;
+                }
+            }
+
+            article {
+                text-align: left;
+                padding: 0 10px 0 10px;
+            }
+        }
+    }
 }

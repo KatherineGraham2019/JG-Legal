@@ -32,6 +32,10 @@ class About extends React.Component {
                 </div>
 
                 <div className="overview-section">
+                    <div className="side-view">
+                        <h2>Services</h2>
+                        <hr></hr>
+                    </div>
                     <article className="overview-info">
                         <b>Litigation:</b> {AboutText.litigation}
                         <br />
@@ -43,11 +47,7 @@ class About extends React.Component {
                         <br />
                         <br />
                         <b>Transactional Practice:</b> {AboutText.transactionalPractice}
-                        </article>
-                    <div className="side-view">
-                        <h2>Services</h2>
-                        <hr></hr>
-                    </div>
+                    </article>
                 </div>
 
                 <div className="links">

@@ -8,5 +8,4 @@ export default {
     causes1: "Our business is purposed to serve our community. We believe in physical, mental and spiritual health for every individual in our county, beginning with children.",
     causes2: "We strive to have the same testimony as Job did when he said “I rescued the poor who cried for help, and the fatherless who had none to assist them. The one who was dying blessed me; I made the widow’s’ heart sing. I put on righteousness as my clothing; justice was my robe and my turban. I was eyes to the blind and feet to the lame. I was a father to the needy; I took up the case of the stranger. I broke the fangs of the wicked and snatched the victims from their teeth.” (Job 29:12-17).",
     causes3: "We donate to Abiding Place Ministries, the San Diego Youth Development Center, and We Love Orphans because of their work with the poor, needy and fatherless children here in San Diego and abroad."
-
 }
