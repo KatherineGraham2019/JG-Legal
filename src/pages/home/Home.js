@@ -19,21 +19,18 @@ class Home extends React.Component {
                             <img className="d-block w-100" src="/San-Diego-Images/Hall-Of-Justice-5.jpg" alt="First slide" />
                             <Carousel.Caption>
                                 <h3>Integrity</h3>
-                                <p>Law Office of Jeremiah Graham</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img className="d-block w-100" src="/San-Diego-Images/New-Courthouse-3.jpg" alt="Third slide" />
                             <Carousel.Caption>
                                 <h3>Results</h3>
-                                <p>Law Office of Jeremiah Graham</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img className="d-block w-100" src="/San-Diego-Images/Skyline-3.jpg" alt="Third slide" />
                             <Carousel.Caption>
-                                <h3>Fairness</h3>
-                                <p>Law Office of Jeremiah Graham</p>
+                                <h3>Justice</h3>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
