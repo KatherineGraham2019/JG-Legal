@@ -40,6 +40,9 @@ class About extends React.Component {
                         <b>Litigation:</b> {AboutText.litigation}
                         <br />
                         <br />
+                        <b>First Amendment Law:</b> {AboutText.firstAmendmentLaw}
+                        <br />
+                        <br />
                         <b>Civil Rights:</b> {AboutText.civilRights}
                         <br />
                         <br />
