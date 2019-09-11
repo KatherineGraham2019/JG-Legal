@@ -3,7 +3,7 @@ export default [
         title: "Litigation",
         text: "We begin with a trial-ready approach and willingness to handle any matter " + 
             "before any Court in the State of California. From this position, we work to " + 
-            "resolve disputes long before they reach trial. With the best litigation team in San Diego, " + 
+            "resolve disputes long before they reach trial. With the best litigation team in California, " + 
             "and a solid grounding in technology, we work to deliver the optimum outcome for our clients.",
     }, {
         title: 'First Amendment Law', 
