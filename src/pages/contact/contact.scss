@@ -1,8 +1,57 @@
+@import '../../../theme.scss';
+
 .contact {
     .spacer {
         background-image: url("/San-Diego-Images/Coronado-Bridge-2.jpg");
         background-size: 100% auto;
         height: 600px;
+    }
+
+    .contact-section {
+        background-color: $secondary-color;
+        height: 560px;
+        width: 100%;
+        padding: 30px;
+        display: inline-flex;
+
+        .our-map {
+            width: 40%;
+            height: 500px;
+            margin-left: 20px;
+        }
+
+        .contact-info{
+            width: 45%;
+            margin-left: 5%;
+            text-align: left;
+
+            h2 {
+                font-family: Cutive;
+                color: $primary-text-color;
+                font-size: 32px;
+            }
+
+            hr {
+                background-color: $primary-text-color;
+            }
+
+            h3 {
+                color: $primary-text-color;
+                font-size: 22px;
+                font-weight: 200;
+
+            }
+
+            .address {
+                color: $primary-text-color;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .contact-info-breakdown{
+                color: $primary-text-color;
+            }
+        }
     }
 
 }

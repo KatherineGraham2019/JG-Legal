@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutText from './AboutText.js';
+import ServicesText from './ServicesText.js';
 import './about.scss';
 
 class About extends React.Component {
@@ -7,6 +8,24 @@ class About extends React.Component {
         super(props);
 
         this.state = {};
+    }
+
+    renderTextSections(text) {
+        const services = text.map((section, index) => {
+            return (
+                <React.Fragment>
+                    <b>{section.title}:</b> {section.text}
+                    {index !== text.length &&
+                        <React.Fragment>
+                            <br />
+                            <br />
+                        </React.Fragment>
+                    }
+                </React.Fragment>
+            )
+        });
+
+        return services;
     }
 
     render() {
@@ -37,19 +56,7 @@ class About extends React.Component {
                         <hr></hr>
                     </div>
                     <article className="overview-info">
-                        <b>Litigation:</b> {AboutText.litigation}
-                        <br />
-                        <br />
-                        <b>First Amendment Law:</b> {AboutText.firstAmendmentLaw}
-                        <br />
-                        <br />
-                        <b>Civil Rights:</b> {AboutText.civilRights}
-                        <br />
-                        <br />
-                        <b>Human Trafficking:</b> {AboutText.huamnTrafficking}
-                        <br />
-                        <br />
-                        <b>Transactional Practice:</b> {AboutText.transactionalPractice}
+                        {this.renderTextSections(ServicesText)}
                     </article>
                 </div>
 

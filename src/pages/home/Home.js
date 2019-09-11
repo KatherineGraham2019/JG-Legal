@@ -24,13 +24,13 @@ class Home extends React.Component {
                         <Carousel.Item>
                             <img className="d-block w-100" src="/San-Diego-Images/New-Courthouse-3.jpg" alt="Third slide" />
                             <Carousel.Caption>
-                                <h3>Results</h3>
+                                <h3>Justice</h3>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img className="d-block w-100" src="/San-Diego-Images/Skyline-3.jpg" alt="Third slide" />
                             <Carousel.Caption>
-                                <h3>Justice</h3>
+                                <h3>Results</h3>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
