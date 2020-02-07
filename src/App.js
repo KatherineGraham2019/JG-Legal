@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Navbar, Nav, Carousel, Container, Row, Col, Image } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import Home from './pages/home/Home.js';
 import About from './pages/about/About.js';
 import Careers from './pages/careers/Careers.js';
@@ -30,7 +30,14 @@ function App() {
                 <Navbar.Collapse className="inkhorn-navbar" id="basic-navbar-nav">
                     <Nav className="justify-content-end">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="practices">Practices</Nav.Link>
+                        <NavDropdown title="Practices" id="basic-nav-dropdown">
+                            <p><b>Corporate</b></p>
+                                <NavDropdown.Item href="/home" disabled>Business Formation</NavDropdown.Item>
+                                <NavDropdown.Item href="/home" disabled>Contracts</NavDropdown.Item>
+                                <NavDropdown.Item href="/home" disabled>Government Contracts</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <p><b>Litigation</b></p>
+                        </NavDropdown>
                         {/*Coming Soon: <Nav.Link href="people">People</Nav.Link>*/}
                         <Nav.Link href="careers">Careers</Nav.Link>
                         <Nav.Link href="about">About</Nav.Link>
